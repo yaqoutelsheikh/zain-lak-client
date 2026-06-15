@@ -1,0 +1,216 @@
+{
+    "app": {
+        "title": "Zain Lak",
+        "description": "Web-Plattform für Unternehmen."
+    },
+    "home": {
+        "title": "Storefront",
+        "hello": "Zain Lak",
+        "eyebrow": "Kaufen, buchen und entdecken",
+        "tagline": "Ein Storefront fuer Produkte, Services, Buchungen, Aufenthalte und Inserate.",
+        "switchLanguage": "Sprache wechseln",
+        "locales": {
+            "en": "English",
+            "ar": "العربية",
+            "fr": "Français",
+            "de": "Deutsch"
+        },
+        "hero": {
+            "eyebrow": "Zain Lak Storefront",
+            "title": "Alles zum Kaufen, Buchen und Entdecken an einem Ort.",
+            "description": "Entdecken Sie kuratierte Produkte, buchen Sie Services, reservieren Sie Reisen und Aufenthalte und erkunden Sie Inserate in einer sauberen Kundenerfahrung.",
+            "primaryCta": "Kollektionen ansehen",
+            "secondaryCta": "Buchungen ansehen"
+        },
+        "collections": {
+            "eyebrow": "Ausgewaehlte Kollektionen",
+            "title": "Ein Storefront fuer viele Verkaufsarten",
+            "description": "Physische Produkte, digitale Artikel, Services, Touren, Hotels, Tickets und Immobilien koennen in einer Tenant-Erfahrung leben.",
+            "physical": "Produkte",
+            "digital": "Digital",
+            "services": "Services",
+            "bookings": "Touren & Tickets",
+            "stays": "Hotels",
+            "estate": "Immobilien"
+        },
+        "rails": {
+            "featured": "Jetzt empfohlen",
+            "services": "Buchbare Services",
+            "bookings": "Reisen, Aufenthalte und Inserate"
+        },
+        "types": {
+            "physical": "Physisches Produkt",
+            "digital": "Digitales Produkt",
+            "service": "Service",
+            "tour": "Tour",
+            "hotel": "Hotel",
+            "realEstate": "Immobilie"
+        },
+        "products": {
+            "smartKit": {
+                "name": "Smart Living Kit",
+                "description": "Ein fertiges Bundle fuer vernetzte Zuhause und moderne Bueros.",
+                "price": "$129"
+            },
+            "designPack": {
+                "name": "Brand Launch Pack",
+                "description": "Digitale Vorlagen, Launch-Assets und kampagnenbereite Dateien.",
+                "price": "$49"
+            },
+            "homeCleaning": {
+                "name": "Premium-Hausreinigung",
+                "description": "Buchen Sie gepruefte Teams mit klaren Slots und transparenten Preisen.",
+                "price": "Ab $35"
+            },
+            "desertTour": {
+                "name": "Wuesten-Sunset-Tour",
+                "description": "Gefuehrtes Gruppenerlebnis mit Tickets und Abholoptionen.",
+                "price": "$76"
+            },
+            "cityHotel": {
+                "name": "Hotel mit Stadtblick",
+                "description": "Flexible Uebernachtungen mit sofortiger Buchung.",
+                "price": "$118/Nacht"
+            },
+            "marinaApartment": {
+                "name": "Marina-Apartment",
+                "description": "Premium-Immobilieninserat mit Medien und Lead-Erfassung.",
+                "price": "$420k"
+            }
+        },
+        "trust": {
+            "title": "Gebaut fuer sichere Entscheidungen",
+            "description": "Klare Produkttypen, lokalisierte Wege, sicherer Zugang und Support-Signale halten Besucher in Bewegung.",
+            "orders": "Einheitliche Bestellungen",
+            "vendors": "Vendor-Katalog",
+            "support": "Support-Uebergabe",
+            "secure": "Sicher anmelden"
+        },
+        "support": {
+            "eyebrow": "Support und Entdeckung",
+            "title": "Besucher vom Interesse zur Aktion fuehren",
+            "description": "Die Startseite bereitet KI-Entdeckung, direkten Support, Konto-Zugang und spaetere Checkout-Flows vor.",
+            "chat": "Support kontaktieren",
+            "ai": "Mit KI entdecken"
+        },
+        "footer": {
+            "title": "Bereit, Zain Lak zu erkunden?",
+            "description": "Starten Sie mit den empfohlenen Kollektionen oder springen Sie direkt zu Services und Buchungen.",
+            "cta": "Jetzt stoebern"
+        }
+    },
+    "header": {
+        "brand": "Zain Lak",
+        "surface": "Storefront",
+        "home": "Zur Startseite",
+        "navigation": "Hauptnavigation",
+        "search": "Suche",
+        "searchPlaceholder": "Produkte, Services und Buchungen suchen...",
+        "ai": "KI-Entdeckung",
+        "deals": "Angebote",
+        "account": "Konto",
+        "nav": {
+            "discover": "Entdecken",
+            "catalog": "Katalog",
+            "bookings": "Buchungen",
+            "deals": "Angebote",
+            "support": "Support"
+        },
+        "theme": "Darstellung wechseln"
+    },
+    "auth": {
+        "login": {
+            "title": "Willkommen zurueck",
+            "description": "Melden Sie sich an, um Einkaeufe, Buchungen und Ihr Konto zu verwalten.",
+            "cta": "Anmelden",
+            "switch": "Konto erstellen"
+        },
+        "register": {
+            "title": "Konto erstellen",
+            "description": "Treten Sie Zain Lak bei, um Bestellungen, Buchungen, Praemien und Wallet-Aktivitaeten zu speichern.",
+            "cta": "Konto erstellen",
+            "switch": "Sie haben bereits ein Konto?"
+        },
+        "recover": {
+            "title": "Zugang wiederherstellen",
+            "description": "Geben Sie Ihre E-Mail ein und wir senden Anweisungen zur Wiederherstellung.",
+            "cta": "Link senden",
+            "switch": "Zurueck zur Anmeldung"
+        },
+        "reset": {
+            "title": "Passwort zuruecksetzen",
+            "description": "Waehlen Sie ein neues Passwort fuer Ihr Konto.",
+            "cta": "Passwort zuruecksetzen",
+            "switch": "Zurueck zur Anmeldung"
+        },
+        "confirm": {
+            "title": "Konto bestaetigen",
+            "description": "Geben Sie den Verifizierungscode ein, den wir gesendet haben.",
+            "cta": "Bestaetigen",
+            "resend": "Code erneut senden",
+            "resendIn": "Erneut senden in {seconds}s"
+        },
+        "fields": {
+            "name": "Vollstaendiger Name",
+            "phone": "Telefonnummer",
+            "email": "E-Mail-Adresse",
+            "password": "Passwort",
+            "confirmPassword": "Passwort bestaetigen",
+            "affiliateCode": "Affiliate-Code",
+            "affiliateName": "Affiliate-Name",
+            "code": "Verifizierungscode",
+            "terms": "Ich akzeptiere die Bedingungen und Datenschutzrichtlinie"
+        },
+        "placeholders": {
+            "name": "Geben Sie Ihren Namen ein",
+            "phone": "Geben Sie Ihre Telefonnummer ein",
+            "email": "you@example.com",
+            "password": "Geben Sie Ihr Passwort ein",
+            "confirmPassword": "Passwort wiederholen",
+            "affiliateCode": "Optionaler Code",
+            "affiliateName": "Optionaler Affiliate-Name",
+            "code": "Code eingeben"
+        },
+        "social": {
+            "divider": "Oder fortfahren mit",
+            "google": "Weiter mit Google",
+            "facebook": "Weiter mit Facebook",
+            "github": "Weiter mit GitHub",
+            "apple": "Weiter mit Apple",
+            "telegram": "Weiter mit Telegram"
+        },
+        "validation": {
+            "required": "Dieses Feld ist erforderlich.",
+            "email": "Geben Sie eine gueltige E-Mail-Adresse ein.",
+            "password": "Verwenden Sie ein staerkeres Passwort.",
+            "passwordMatch": "Die Passwoerter stimmen nicht ueberein.",
+            "terms": "Sie muessen die Bedingungen akzeptieren.",
+            "code": "Geben Sie den Verifizierungscode ein."
+        },
+        "errors": {
+            "credentials": "E-Mail oder Passwort ist falsch.",
+            "validation": "Pruefen Sie die markierten Felder und versuchen Sie es erneut.",
+            "rateLimited": "Zu viele Versuche. Bitte warten Sie und versuchen Sie es erneut.",
+            "network": "Der Server ist nicht erreichbar. Pruefen Sie Ihre Verbindung.",
+            "server": "Auf unserer Seite ist ein Fehler aufgetreten. Bitte erneut versuchen."
+        },
+        "status": {
+            "loading": "Bitte warten...",
+            "success": "Fertig.",
+            "sent": "Wir haben die Anweisungen gesendet."
+        }
+    },
+    "errors": {
+        "crashed": "Etwas ist schiefgelaufen.",
+        "crashedHint": "Versuchen Sie es erneut - wenn es weiterhin auftritt, senden Sie uns den untenstehenden Code.",
+        "retry": "Erneut versuchen",
+        "notFound": "Diese Seite existiert nicht.",
+        "notFoundHint": "Der Link ist möglicherweise defekt, oder die Seite wurde verschoben.",
+        "backHome": "Zurück zur Startseite"
+    },
+    "systemHealth": {
+        "ok": "Betriebsbereit",
+        "unreachable": "Nicht erreichbar",
+        "checkedAgo": "geprüft {ago}"
+    }
+}

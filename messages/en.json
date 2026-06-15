@@ -1,0 +1,216 @@
+{
+    "app": {
+        "title": "Zain Lak",
+        "description": "Enterprise web platform."
+    },
+    "home": {
+        "title": "Storefront",
+        "hello": "Zain Lak",
+        "eyebrow": "Shop, book, and discover",
+        "tagline": "One storefront for products, services, bookings, stays, and listings.",
+        "switchLanguage": "Switch language",
+        "locales": {
+            "en": "English",
+            "ar": "العربية",
+            "fr": "Français",
+            "de": "Deutsch"
+        },
+        "hero": {
+            "eyebrow": "Zain Lak storefront",
+            "title": "Everything worth buying, booking, and discovering in one place.",
+            "description": "Browse curated products, book services, reserve trips and stays, and explore listings with one polished customer experience.",
+            "primaryCta": "Explore collections",
+            "secondaryCta": "View bookings"
+        },
+        "collections": {
+            "eyebrow": "Featured collections",
+            "title": "A storefront built for many ways to sell",
+            "description": "Physical goods, digital items, services, tours, hotels, tickets, and properties can all live in one tenant experience.",
+            "physical": "Products",
+            "digital": "Digital",
+            "services": "Services",
+            "bookings": "Tours & tickets",
+            "stays": "Hotels",
+            "estate": "Real estate"
+        },
+        "rails": {
+            "featured": "Featured now",
+            "services": "Bookable services",
+            "bookings": "Trips, stays, and listings"
+        },
+        "types": {
+            "physical": "Physical product",
+            "digital": "Digital product",
+            "service": "Service",
+            "tour": "Tour",
+            "hotel": "Hotel",
+            "realEstate": "Real estate"
+        },
+        "products": {
+            "smartKit": {
+                "name": "Smart living kit",
+                "description": "A ready bundle for connected homes and modern offices.",
+                "price": "$129"
+            },
+            "designPack": {
+                "name": "Brand launch pack",
+                "description": "Digital templates, launch assets, and campaign-ready files.",
+                "price": "$49"
+            },
+            "homeCleaning": {
+                "name": "Premium home cleaning",
+                "description": "Book vetted teams with clear slots and upfront pricing.",
+                "price": "From $35"
+            },
+            "desertTour": {
+                "name": "Desert sunset tour",
+                "description": "Guided group experience with tickets and pickup options.",
+                "price": "$76"
+            },
+            "cityHotel": {
+                "name": "City view hotel stay",
+                "description": "Flexible nightly stays with instant booking flow.",
+                "price": "$118/night"
+            },
+            "marinaApartment": {
+                "name": "Marina apartment listing",
+                "description": "Premium property listing with rich media and lead capture.",
+                "price": "$420k"
+            }
+        },
+        "trust": {
+            "title": "Built for confident customers",
+            "description": "Clear product types, localized flows, secure account access, and support signals keep visitors moving.",
+            "orders": "Unified orders",
+            "vendors": "Vendor-ready catalog",
+            "support": "Support handoff",
+            "secure": "Secure sign-in"
+        },
+        "support": {
+            "eyebrow": "Support and discovery",
+            "title": "Guide visitors from interest to action",
+            "description": "The home page prepares the path for AI discovery, live support, account access, and later checkout flows.",
+            "chat": "Talk to support",
+            "ai": "Discover with AI"
+        },
+        "footer": {
+            "title": "Ready to explore Zain Lak?",
+            "description": "Start with the featured collections or jump straight into services and bookings.",
+            "cta": "Start browsing"
+        }
+    },
+    "header": {
+        "brand": "Zain Lak",
+        "surface": "Storefront",
+        "home": "Go home",
+        "navigation": "Primary navigation",
+        "search": "Search",
+        "searchPlaceholder": "Search products, services, bookings...",
+        "ai": "AI discovery",
+        "deals": "Deals",
+        "account": "Account",
+        "nav": {
+            "discover": "Discover",
+            "catalog": "Catalog",
+            "bookings": "Bookings",
+            "deals": "Deals",
+            "support": "Support"
+        },
+        "theme": "Toggle theme"
+    },
+    "auth": {
+        "login": {
+            "title": "Welcome back",
+            "description": "Sign in to continue shopping, booking, and managing your account.",
+            "cta": "Sign in",
+            "switch": "Create an account"
+        },
+        "register": {
+            "title": "Create your account",
+            "description": "Join Zain Lak to save orders, bookings, rewards, and wallet activity.",
+            "cta": "Create account",
+            "switch": "Already have an account?"
+        },
+        "recover": {
+            "title": "Recover access",
+            "description": "Enter your email and we will send recovery instructions.",
+            "cta": "Send recovery link",
+            "switch": "Back to sign in"
+        },
+        "reset": {
+            "title": "Reset password",
+            "description": "Choose a new password for your account.",
+            "cta": "Reset password",
+            "switch": "Back to sign in"
+        },
+        "confirm": {
+            "title": "Confirm your account",
+            "description": "Enter the verification code we sent to you.",
+            "cta": "Confirm",
+            "resend": "Resend code",
+            "resendIn": "Resend in {seconds}s"
+        },
+        "fields": {
+            "name": "Full name",
+            "phone": "Phone number",
+            "email": "Email address",
+            "password": "Password",
+            "confirmPassword": "Confirm password",
+            "affiliateCode": "Affiliate code",
+            "affiliateName": "Affiliate name",
+            "code": "Verification code",
+            "terms": "I agree to the terms and privacy policy"
+        },
+        "placeholders": {
+            "name": "Enter your full name",
+            "phone": "Enter your phone number",
+            "email": "you@example.com",
+            "password": "Enter your password",
+            "confirmPassword": "Repeat your password",
+            "affiliateCode": "Optional code",
+            "affiliateName": "Optional affiliate name",
+            "code": "Enter the code"
+        },
+        "social": {
+            "divider": "Or continue with",
+            "google": "Continue with Google",
+            "facebook": "Continue with Facebook",
+            "github": "Continue with GitHub",
+            "apple": "Continue with Apple",
+            "telegram": "Continue with Telegram"
+        },
+        "validation": {
+            "required": "This field is required.",
+            "email": "Enter a valid email address.",
+            "password": "Use a stronger password.",
+            "passwordMatch": "Passwords do not match.",
+            "terms": "You must accept the terms to continue.",
+            "code": "Enter the verification code."
+        },
+        "errors": {
+            "credentials": "The email or password is incorrect.",
+            "validation": "Check the highlighted fields and try again.",
+            "rateLimited": "Too many attempts. Please wait and try again.",
+            "network": "We could not reach the server. Check your connection and retry.",
+            "server": "Something went wrong on our side. Please try again."
+        },
+        "status": {
+            "loading": "Please wait...",
+            "success": "Done.",
+            "sent": "We sent the instructions."
+        }
+    },
+    "errors": {
+        "crashed": "Something went wrong.",
+        "crashedHint": "Try again - if it keeps happening, send us the code below.",
+        "retry": "Try again",
+        "notFound": "This page does not exist.",
+        "notFoundHint": "The link may be broken, or the page may have moved.",
+        "backHome": "Back to home"
+    },
+    "systemHealth": {
+        "ok": "Operational",
+        "unreachable": "Unreachable",
+        "checkedAgo": "checked {ago}"
+    }
+}

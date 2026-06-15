@@ -1,0 +1,216 @@
+{
+    "app": {
+        "title": "Zain Lak",
+        "description": "Plateforme web d'entreprise."
+    },
+    "home": {
+        "title": "Vitrine",
+        "hello": "Zain Lak",
+        "eyebrow": "Acheter, reserver et decouvrir",
+        "tagline": "Une vitrine pour les produits, services, reservations, sejours et annonces.",
+        "switchLanguage": "Changer de langue",
+        "locales": {
+            "en": "English",
+            "ar": "العربية",
+            "fr": "Français",
+            "de": "Deutsch"
+        },
+        "hero": {
+            "eyebrow": "Vitrine Zain Lak",
+            "title": "Tout ce qui merite achat, reservation et decouverte au meme endroit.",
+            "description": "Parcourez des produits selectionnes, reservez des services, choisissez voyages et sejours, et explorez des annonces dans une experience client soignee.",
+            "primaryCta": "Explorer les collections",
+            "secondaryCta": "Voir les reservations"
+        },
+        "collections": {
+            "eyebrow": "Collections en avant",
+            "title": "Une vitrine pour plusieurs facons de vendre",
+            "description": "Produits physiques, articles numeriques, services, visites, hotels, billets et biens immobiliers peuvent vivre dans une seule experience.",
+            "physical": "Produits",
+            "digital": "Numerique",
+            "services": "Services",
+            "bookings": "Tours et billets",
+            "stays": "Hotels",
+            "estate": "Immobilier"
+        },
+        "rails": {
+            "featured": "Mis en avant",
+            "services": "Services reservables",
+            "bookings": "Voyages, sejours et annonces"
+        },
+        "types": {
+            "physical": "Produit physique",
+            "digital": "Produit numerique",
+            "service": "Service",
+            "tour": "Tour",
+            "hotel": "Hotel",
+            "realEstate": "Immobilier"
+        },
+        "products": {
+            "smartKit": {
+                "name": "Kit maison connectee",
+                "description": "Un pack pret pour maisons connectees et bureaux modernes.",
+                "price": "$129"
+            },
+            "designPack": {
+                "name": "Pack lancement de marque",
+                "description": "Modeles numeriques, assets de lancement et fichiers de campagne.",
+                "price": "$49"
+            },
+            "homeCleaning": {
+                "name": "Nettoyage premium",
+                "description": "Reservez des equipes verifiees avec creneaux clairs et prix visibles.",
+                "price": "Des $35"
+            },
+            "desertTour": {
+                "name": "Tour coucher de soleil",
+                "description": "Experience guidee avec billets et options de transport.",
+                "price": "$76"
+            },
+            "cityHotel": {
+                "name": "Sejour hotel vue ville",
+                "description": "Nuits flexibles avec parcours de reservation instantane.",
+                "price": "$118/nuit"
+            },
+            "marinaApartment": {
+                "name": "Appartement marina",
+                "description": "Annonce premium avec medias riches et capture de prospects.",
+                "price": "$420k"
+            }
+        },
+        "trust": {
+            "title": "Concu pour rassurer les clients",
+            "description": "Types clairs, parcours localises, acces securise et signaux de support gardent les visiteurs en mouvement.",
+            "orders": "Commandes unifiees",
+            "vendors": "Catalogue vendeur",
+            "support": "Relais support",
+            "secure": "Connexion securisee"
+        },
+        "support": {
+            "eyebrow": "Support et decouverte",
+            "title": "Guider les visiteurs de l interet a l action",
+            "description": "La page d accueil prepare la decouverte IA, le support direct, le compte et les futurs parcours de paiement.",
+            "chat": "Parler au support",
+            "ai": "Decouvrir avec IA"
+        },
+        "footer": {
+            "title": "Pret a explorer Zain Lak ?",
+            "description": "Commencez par les collections en avant ou allez directement aux services et reservations.",
+            "cta": "Commencer"
+        }
+    },
+    "header": {
+        "brand": "Zain Lak",
+        "surface": "Vitrine",
+        "home": "Retour a l'accueil",
+        "navigation": "Navigation principale",
+        "search": "Recherche",
+        "searchPlaceholder": "Rechercher produits, services, reservations...",
+        "ai": "Decouverte IA",
+        "deals": "Offres",
+        "account": "Compte",
+        "nav": {
+            "discover": "Decouvrir",
+            "catalog": "Catalogue",
+            "bookings": "Reservations",
+            "deals": "Offres",
+            "support": "Support"
+        },
+        "theme": "Changer le theme"
+    },
+    "auth": {
+        "login": {
+            "title": "Bon retour",
+            "description": "Connectez-vous pour continuer vos achats, reservations et la gestion de votre compte.",
+            "cta": "Se connecter",
+            "switch": "Creer un compte"
+        },
+        "register": {
+            "title": "Creez votre compte",
+            "description": "Rejoignez Zain Lak pour sauvegarder commandes, reservations, recompenses et portefeuille.",
+            "cta": "Creer le compte",
+            "switch": "Vous avez deja un compte ?"
+        },
+        "recover": {
+            "title": "Recuperer l'acces",
+            "description": "Saisissez votre email et nous enverrons les instructions.",
+            "cta": "Envoyer le lien",
+            "switch": "Retour a la connexion"
+        },
+        "reset": {
+            "title": "Reinitialiser le mot de passe",
+            "description": "Choisissez un nouveau mot de passe pour votre compte.",
+            "cta": "Reinitialiser",
+            "switch": "Retour a la connexion"
+        },
+        "confirm": {
+            "title": "Confirmez votre compte",
+            "description": "Saisissez le code de verification recu.",
+            "cta": "Confirmer",
+            "resend": "Renvoyer le code",
+            "resendIn": "Renvoyer dans {seconds}s"
+        },
+        "fields": {
+            "name": "Nom complet",
+            "phone": "Numero de telephone",
+            "email": "Adresse email",
+            "password": "Mot de passe",
+            "confirmPassword": "Confirmer le mot de passe",
+            "affiliateCode": "Code affilie",
+            "affiliateName": "Nom affilie",
+            "code": "Code de verification",
+            "terms": "J'accepte les conditions et la politique de confidentialite"
+        },
+        "placeholders": {
+            "name": "Saisissez votre nom complet",
+            "phone": "Saisissez votre numero",
+            "email": "you@example.com",
+            "password": "Saisissez votre mot de passe",
+            "confirmPassword": "Repetez votre mot de passe",
+            "affiliateCode": "Code optionnel",
+            "affiliateName": "Nom affilie optionnel",
+            "code": "Saisissez le code"
+        },
+        "social": {
+            "divider": "Ou continuer avec",
+            "google": "Continuer avec Google",
+            "facebook": "Continuer avec Facebook",
+            "github": "Continuer avec GitHub",
+            "apple": "Continuer avec Apple",
+            "telegram": "Continuer avec Telegram"
+        },
+        "validation": {
+            "required": "Ce champ est obligatoire.",
+            "email": "Saisissez une adresse email valide.",
+            "password": "Utilisez un mot de passe plus fort.",
+            "passwordMatch": "Les mots de passe ne correspondent pas.",
+            "terms": "Vous devez accepter les conditions pour continuer.",
+            "code": "Saisissez le code de verification."
+        },
+        "errors": {
+            "credentials": "L'email ou le mot de passe est incorrect.",
+            "validation": "Verifiez les champs indiques et reessayez.",
+            "rateLimited": "Trop de tentatives. Attendez puis reessayez.",
+            "network": "Impossible de joindre le serveur. Verifiez votre connexion.",
+            "server": "Une erreur est survenue de notre cote. Reessayez."
+        },
+        "status": {
+            "loading": "Veuillez patienter...",
+            "success": "Termine.",
+            "sent": "Nous avons envoye les instructions."
+        }
+    },
+    "errors": {
+        "crashed": "Une erreur est survenue.",
+        "crashedHint": "Réessayez - si le problème persiste, envoyez-nous le code ci-dessous.",
+        "retry": "Réessayer",
+        "notFound": "Cette page n'existe pas.",
+        "notFoundHint": "Le lien est peut-être rompu, ou la page a été déplacée.",
+        "backHome": "Retour à l'accueil"
+    },
+    "systemHealth": {
+        "ok": "Opérationnel",
+        "unreachable": "Inaccessible",
+        "checkedAgo": "vérifié {ago}"
+    }
+}

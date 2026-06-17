@@ -7,7 +7,7 @@ export const home = {
         description: "home.hero.description",
         primaryCta: "home.hero.primaryCta",
         secondaryCta: "home.hero.secondaryCta",
-        primaryHref: "#catalog",
+        primaryHref: "/catalog",
         secondaryHref: "#bookings",
     },
     collections: [
@@ -102,6 +102,6 @@ export const home = {
         title: "home.footer.title",
         description: "home.footer.description",
         cta: "home.footer.cta",
-        href: "#catalog",
+        href: "/catalog",
     },
 } satisfies HomeConfig;

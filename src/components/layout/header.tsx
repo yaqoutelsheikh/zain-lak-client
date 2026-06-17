@@ -4,6 +4,7 @@ import {
     Bot,
     Menu,
     Search,
+    ShoppingCart,
     Store,
     UserRound,
 } from "lucide-react";
@@ -11,7 +12,7 @@ import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { LocaleSwitcher } from "@/components/custom/locale-switcher";
 import { ThemeToggle } from "@/components/custom/theme-toggle";
-import { Button } from "@/components/ui/elements/button";
+import { Button, buttonVariants } from "@/components/ui/elements/button";
 import {
     Sheet,
     SheetContent,
@@ -23,10 +24,11 @@ import {
 } from "@/components/ui/elements/sheet";
 import { Link, usePathname } from "@/lib/utils/i18n";
 import { cn } from "@/lib/utils/shadcn";
+import { useCart } from "@/stores/cart";
 
 const nav = [
     { key: "discover", href: "/" },
-    { key: "catalog", href: "/#catalog" },
+    { key: "catalog", href: "/catalog" },
     { key: "bookings", href: "/#bookings" },
     { key: "deals", href: "/#deals" },
     { key: "support", href: "/#support" },
@@ -36,6 +38,7 @@ export function Header () {
 
     const t = useTranslations("header");
     const pathname = usePathname();
+    const itemCount = useCart((state) => state.items.reduce((sum, item) => sum + item.quantity, 0));
     const [open, setOpen] = useState(false);
 
     return (
@@ -65,7 +68,7 @@ export function Header () {
                     {
                         nav.map((item) => {
 
-                            const isActive = item.href === "/" && pathname === "/";
+                            const isActive = item.href === pathname;
 
                             return (
 
@@ -112,13 +115,40 @@ export function Header () {
 
                     <ThemeToggle label={t("theme")} />
 
+                    <Link
+                        href="/cart"
+                        aria-label={t("cart")}
+                        aria-current={pathname === "/cart" ? "page" : undefined}
+                        className={cn(
+                            buttonVariants({ variant: pathname === "/cart" ? "default" : "outline", size: "icon-lg" }),
+                            "relative",
+                        )}
+                    >
+                        <ShoppingCart className="size-4" aria-hidden />
+                        {itemCount ? (
+                            <span className="-end-1.5 -top-1.5 absolute grid min-h-5 min-w-5 place-items-center rounded-full bg-gold-soft px-1 text-[0.7rem] font-semibold text-gold-soft-foreground ring-2 ring-background">
+                                {itemCount}
+                            </span>
+                        ) : null}
+                    </Link>
+
                     <Button variant="ghost" size="icon-lg" aria-label={t("ai")}>
                         <Bot className="size-4 text-gold-soft-foreground" aria-hidden />
                     </Button>
 
-                    <Button variant="outline" size="icon-lg" aria-label={t("account")}>
+                    <Link
+                        href="/account"
+                        aria-label={t("account")}
+                        aria-current={pathname.startsWith("/account") ? "page" : undefined}
+                        className={cn(
+                            buttonVariants({
+                                variant: pathname.startsWith("/account") ? "default" : "outline",
+                                size: "icon-lg",
+                            }),
+                        )}
+                    >
                         <UserRound className="size-4" aria-hidden />
-                    </Button>
+                    </Link>
 
                 </div>
 
@@ -181,7 +211,7 @@ export function Header () {
                             {
                                 nav.map((item) => {
 
-                                    const isActive = item.href === "/" && pathname === "/";
+                                    const isActive = item.href === pathname;
 
                                     return (
 
@@ -213,9 +243,32 @@ export function Header () {
                             <div className="grid gap-1">
 
                                 <Link
-                                    href="/login"
+                                    href="/cart"
                                     onClick={() => setOpen(false)}
                                     className="group flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium text-foreground outline-none transition-all hover:bg-muted focus-visible:ring-2 focus-visible:ring-ring"
+                                >
+
+                                    <span className="relative grid size-8 shrink-0 place-items-center rounded-lg bg-muted text-muted-foreground transition group-hover:bg-primary/10 group-hover:text-primary">
+                                        <ShoppingCart className="size-4" aria-hidden />
+                                        {itemCount ? (
+                                            <span className="-end-1.5 -top-1.5 absolute grid min-h-4 min-w-4 place-items-center rounded-full bg-primary px-1 text-[0.625rem] font-semibold text-primary-foreground ring-2 ring-background">
+                                                {itemCount}
+                                            </span>
+                                        ) : null}
+                                    </span>
+
+                                    <span>{t("cart")}</span>
+
+                                </Link>
+
+                                <Link
+                                    href="/account"
+                                    onClick={() => setOpen(false)}
+                                    aria-current={pathname.startsWith("/account") ? "page" : undefined}
+                                    className={cn(
+                                        "group flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium text-foreground outline-none transition-all hover:bg-muted focus-visible:ring-2 focus-visible:ring-ring",
+                                        pathname.startsWith("/account") ? "bg-muted" : "",
+                                    )}
                                 >
 
                                     <span className="grid size-8 shrink-0 place-items-center rounded-lg bg-muted text-muted-foreground transition group-hover:bg-primary/10 group-hover:text-primary">

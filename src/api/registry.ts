@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { account } from "@/api/account";
 import { auth } from "@/api/auth";
 import type { ApiEntry } from "@/api/client";
 
@@ -22,6 +23,7 @@ const permissions = {
 
 export const api = {
 
+    account,
     auth,
     health,
     permissions,

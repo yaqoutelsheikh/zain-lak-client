@@ -1,0 +1,10 @@
+import { setRequestLocale } from "next-intl/server";
+import { Account } from "@/features/account";
+
+export default async function AccountOrdersPage({ params }: { params: Promise<{ locale: string }> }) {
+    const { locale } = await params;
+
+    setRequestLocale(locale);
+
+    return <Account view="orders" />;
+}
